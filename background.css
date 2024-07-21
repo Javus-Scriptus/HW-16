@@ -1,0 +1,10 @@
+.bg-box {
+  width: 100%;
+  height: 100vh;
+  background-color: green;
+  background-image: url(img/bulb.png), url(img/house.webp),
+    url(img/hedgehog.webp), url(img/donut.png), url(img/grass.png);
+  background-repeat: repeat-x, no-repeat, repeat-y, repeat-y, repeat-x;
+  background-position: top, center center, left top, right top, bottom;
+  background-size: 50px, 830px, 43px, 43px, 370px;
+}
